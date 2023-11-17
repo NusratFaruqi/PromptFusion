@@ -113,7 +113,7 @@ export async function DELETE(req: Request) {
 
     return NextResponse.json(response);
   } catch (error) {
-    console.log("[CONVERSATION_ERROR]", error);
+    console.log("[Reviews_ERROR]", error);
     return new NextResponse("Internal Error", { status: 500 });
   }
 }

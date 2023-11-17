@@ -39,7 +39,7 @@ export default function ReviewsPage() {
         <h2 className="text-4xl ">
           <b>Reviews</b>
         </h2>
-        <p>All the valueabled reviews from users.</p>
+        <p>All the valuable reviews from users.</p>
       </div>
       <hr />
 
@@ -54,7 +54,6 @@ export default function ReviewsPage() {
         />
       </div>
 
-      {/**Grid of 4 columns many rows */}
       <div className="grid grid-cols-4 gap-4 px-4 py-4">
         {
           // @ts-ignore

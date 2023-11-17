@@ -1,16 +1,7 @@
 "use client";
 
-import { useState } from "react";
-
-import { Heading } from "@/components/heading";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
-import { Loader } from "@/components/loader";
-import { Empty } from "@/components/ui/empty";
 import { useProModal } from "@/hooks/use-pro-modal";
 import { useRouter } from "next/navigation";
-import { Clapperboard, Link } from "lucide-react";
 
 const Upgrade = () => {
   const proModal = useProModal();

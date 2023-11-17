@@ -1,8 +1,8 @@
-import { LandingNavbar } from "@/components/landing-navbar";
-import { LandingHero } from "@/components/landing-hero";
 import AppFeatures from "@/components/AppFeatures";
+import { LandingHero } from "@/components/landing-hero";
+import { LandingNavbar } from "@/components/landing-navbar";
 
-import { CheckCircle, Shapes, SquareCode } from "lucide-react";
+import { CheckCircle, Shapes } from "lucide-react";
 
 const LandingPage = () => {
   return (
